@@ -1,0 +1,44 @@
+:root{
+    --light-blue: #3772FF;
+    --light-green: #36D6AD;
+    --light-red: #FC7071;
+    --white: #FFFFFF;
+    --grey: #737380;
+    --light-grey: #BCBCBC;
+    --grey-form: #F7F7F7;
+    --font-title: 'IBM Plex Sans', sans-serif;
+    --main-font: 'Poppins';
+}
+
+body{
+    background-image: url(/assets/img/Forma\ 1.svg), url(/assets/img/forma-esquerda.svg);
+    background-repeat: no-repeat;
+    background-position: top left, bottom 10em left;
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 16px;
+    min-height: 100vh;
+}
+
+/*header */
+
+.header{
+    padding: 3em 2em;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3em;
+}
+
+.header__image{
+    margin: 0 1.5em;
+
+}
+
+/*footer*/
+
+.footer{
+    background-color: var(--light-green);
+    padding: 3em;
+    text-align: center;
+
+}
