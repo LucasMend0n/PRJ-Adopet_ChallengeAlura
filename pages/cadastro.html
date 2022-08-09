@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <title>Cadastro - Adopet</title>
-    
+
 </head>
 <body class="background">
 
@@ -29,23 +29,29 @@
             <p class="content__text">Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
         </div>
         
-        <div class="registration-form">
-            <form class="form">
-               <label for="email">Email</label>
-               <input type="email" name="email" id="formEmail" placeholder="Escolha seu melhor email">
-
-                <label for="complete-name">Nome</label>
-                <input type="text" name="complete-name" id="formName" placeholder="Digite seu nome completo">
-
-                <label for="password">Senha</label>
-                <input type="password" name="password" id="formPassword" placeholder="Crie uma senha">
-
-                <label for="rep-password">Confirme a senha</label>
-                <input type="password" name="rep-password" id="formRepPassword" placeholder="Repita a senha criada acima">
+        <div class="reg-form">
+            <form action="#" class="form">
+                <div class="input-box">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Escolha seu melhor email">
+                </div>
+                <div class="input-box">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+                </div>
+                <div class="input-box">
+                    <label for="password">Senha</label>
+                    <input type="password" name="password" id="password" placeholder="Crie uma senha">
+                </div>
+                <div class="input-box">
+                    <label for="conf-password">Confirme a sua senha</label>
+                    <input type="password" name="conf-password" id="conf-password" placeholder="Confirme sua senha">
+                </div>
+                
 
             </form>
 
-            <button class="form__button">Cadastrar</button>
+            <button type="submit" class="form__button">Cadastrar</button>
         </div>
 
     </main>
