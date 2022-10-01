@@ -29,7 +29,7 @@ body{
 
 .animals{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 2em auto;
     padding: 2em;
     background-color: rgba(246, 246, 246, 0.3) ;    
@@ -67,4 +67,33 @@ body{
     transition: 200ms;
 }
 
+@media screen and (min-width: 1024px) {
+
+    body{
+        background-image: url(../assets/img/forma1-tablet.svg);
+    }
+
+    .content__text{
+        font-size: 18px;
+    }
+    .content{
+        height: 100vh;
+    }
+    .content{
+        margin:4em 7em;
+    }
+
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2em;
+    }
+    .animals{
+        display: inline-flex;
+        gap: 1rem;
+        width: 80%;
+    }
+    
+    
+}
 

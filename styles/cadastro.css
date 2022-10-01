@@ -5,9 +5,13 @@
     flex-direction: column;
 }
 .header__ilustracao{
+    display: block;
     position: absolute;
     top: 0;
     right: 0;
+}
+.patas-tablet{
+    display: none;
 }
 .footer{
     color: var(--white);
@@ -60,5 +64,29 @@
     border-radius: 6px;
     text-align: center;
     width: 50%;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .content{
+        height: 100vh;
+    }
+    .header__ilustracao{
+        display: none;
+    }
+    .patas-tablet{
+        display: block;
+    }
+    .content{
+        margin:3em 7em;
+    }
+    .reg-form{
+        align-items: center;
+        width: 70%;
+    }
+
+
+    
+    
 }
 

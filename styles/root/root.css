@@ -20,6 +20,10 @@ body{
     min-height: 100vh;
 }
 
+.header__logo{
+    display: none;
+}
+
 /*header */
 
 .header{
@@ -41,4 +45,24 @@ body{
     padding: 3em;
     text-align: center;
 
+}
+
+@media screen and (min-width: 1024px){
+
+    body{
+        background-image: url(../../assets/img/forma1-tablet.svg), url(../../assets/img/forma-direita_tablet.svg);
+        background-position: top left, bottom 18em right;
+        min-height: 120vh;
+    }
+
+    .header__logo{
+        display: inline;
+    }
+
+    .footer{
+        background-color: var(--light-green);
+        padding: 3em;
+        text-align: center;
+    
+    }
 }
