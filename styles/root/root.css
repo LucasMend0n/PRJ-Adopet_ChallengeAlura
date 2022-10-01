@@ -11,7 +11,7 @@
 }
 
 body{
-    background-image: url(/assets/img/Forma\ 1.svg), url(/assets/img/forma-esquerda.svg);
+    background-image: url(../../assets/img/Forma\ 1.svg), url(../../assets/img/forma-esquerda.svg);
     background-repeat: no-repeat;
     background-position: top left, bottom 10em left;
     font-family: var(--main-font);
