@@ -29,13 +29,42 @@ body{
 
 .animals{
     display: flex;
-    justify-content: space-between;
-    margin: 2em 0;
+    justify-content: space-around;
+    margin: 2em auto;
     padding: 2em;
-    background-color: #F7F7F7;
-    
+    background-color: rgba(246, 246, 246, 0.3) ;    
 }
-.animals-description{
-    
+.animals-title{
+    font-size: 16px;
+    color: #3772FF;
+    text-align: left;
 }
+
+.animals-text{
+    color: #737380;
+    text-align:left;
+    padding: 1em 0;
+}
+
+.contact-location{
+    font-size: 12px;
+
+}
+
+.contact-button{
+    text-decoration: none;
+    font-size: 10px;    
+}
+.contact-click{
+    position: relative;
+    top: 7px;
+    padding: 0 1em;
+}
+
+.contact-button:hover{
+    font-size: 12px;
+    color: #36D6AD;
+    transition: 200ms;
+}
+
 
