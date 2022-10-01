@@ -1,0 +1,41 @@
+@import url(./root/root.css);
+@import url(./root/reset.css);
+
+body{
+    background-image: url(/assets/img/Forma\ 1.svg);
+}
+
+.background{
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    color: var(--white);
+}
+.content{
+    text-align: right; 
+    flex-grow: 1;
+    height: 80vh;
+    
+} 
+.content__description{
+    text-align: center;
+    color: var(--light-blue);
+    margin: auto;
+    padding: 1em;
+    line-height: 21px;
+    width: 50%;
+}
+
+.animals{
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 0;
+    padding: 2em;
+    background-color: #F7F7F7;
+    
+}
+.animals-description{
+    
+}
+
