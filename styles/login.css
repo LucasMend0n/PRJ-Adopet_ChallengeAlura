@@ -2,9 +2,14 @@
 @import url(./root/reset.css);
 
 .header__ilustracao{
+    display: block;
     position: absolute;
     top: 0;
     right: 0;
+}
+
+.patas-tablet{
+    display: none;
 }
 
 .background{
@@ -76,4 +81,27 @@
     font-size: 12px;
     position: relative;
     top: -2rem;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .content{
+        height: 100vh;
+    }
+    .header__ilustracao{
+        display: none;
+    }
+    .patas-tablet{
+        display: block;
+    }
+    .content{
+        margin:4em 7em;
+    }
+    .log-form{
+        width: 70%;
+    }
+
+
+    
+    
 }

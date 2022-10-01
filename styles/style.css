@@ -10,7 +10,9 @@
     color: var(--white);
 }
 
-/*main - description*/ 
+.header__logo{
+    display: none;
+}
 
 .content{
     text-align: center;
@@ -41,7 +43,24 @@
     border-radius: 7px;
     filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
 }
+.content__link:hover{
+    font-size: 18px;
+    transition: 200ms;
+}
 
+@media screen and (min-width: 1024px) {
+
+    .content{
+        margin:3em 5em;
+    }
+
+    .blue-background{
+        background-image: url(../assets/img/forma1-tablet.svg), url(../assets/img/forma2-tablet.svg), url(../assets/img/draw-tablet.svg);
+        background-position: top left, center right, bottom 3em center;;
+    }
+    
+    
+}
 
 
 
